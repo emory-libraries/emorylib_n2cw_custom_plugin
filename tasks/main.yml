@@ -2,4 +2,4 @@
 # tasks file for emorylib_n2cw_custom_plugin
 
 - name: Include tasks for installing nagios
-  include_tasks: install-nagios-standard-plugins.yml
+  include_tasks: install-nagios-n2cw.yml
