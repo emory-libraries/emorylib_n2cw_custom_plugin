@@ -1,6 +1,7 @@
 - name: Install nagios standard plugins
   yum:
     name: '{{ nagios_plugin_package_name }}'
+    enablerepo: epel
     update_cache: yes
     state: present
 
