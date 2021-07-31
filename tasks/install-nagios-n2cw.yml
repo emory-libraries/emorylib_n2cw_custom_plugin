@@ -1,7 +1,7 @@
 - name: Install nagios standard plugins
   yum:
     name: '{{ nagios_plugin_package_name }}'
-    enablerepo: epel,rhel-7-server-optional-rpms
+    enablerepo: [epel, rhel-7-server-optional-rpms]
     update_cache: yes
     state: present
 
